@@ -1,6 +1,6 @@
 CC=g++ 
-CFLAGS  = -Wall -O0 -g3 -Wc++11-extensions -std=c++11
-LDFLAGS = -g3 -O0 -std=c++11
+CFLAGS  = -Wall -O0 -g -Wc++11-extensions -std=c++11
+LDFLAGS = -std=c++11
 LIB     = -lpthread -lboost_regex -lboost_system-mt -lboost_thread-mt
 INCLUDE =
 
