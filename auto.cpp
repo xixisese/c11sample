@@ -27,6 +27,9 @@ int main(int argc, char* argv[]){
   auto a2 = i2;
   GetType<decltype(a2)>  t4;
 
+  auto&& a3=a1;
+  GetType<decltype(a3)>  t5;
+
   
   return 0;
 }
